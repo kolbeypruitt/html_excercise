@@ -1,11 +1,14 @@
 /* Select by tagname */
+body {
+    background-color: tan;
+}
 h1 {
-  color: red;
+  color: navy;
 }
 
 /* Select by classname */
 .header-alt {
-  border-bottom: 2px solid red;
+  border-bottom: 10px solid black;
 }
 
 /* Select a single element by its ID */
@@ -16,13 +19,20 @@ h1 {
 /* Select all H1s AND all .header-alts */
 h1,
 .header-alt {
-  border-top: 2px solid blue;
+  border-top: 8px solid gray;
+  border-bottom: 10px solid black;
+  background-color: brown;
 }
 
 /* Use descendent selectors */
 div p {
   font-style: italic;
 }
+
+p {
+    font-family: "Geneva", Times, bold;
+}
+
 
 /* Target all p's and a's inside of divs */
 div p, div a {}
